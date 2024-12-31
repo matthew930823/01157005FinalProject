@@ -11,7 +11,9 @@ import SwiftUI
 struct _1157005FinalProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ReceiptCameraView()
+           FortuneView()
         }
+        .modelContainer(for: Fortune.self)
     }
 }
